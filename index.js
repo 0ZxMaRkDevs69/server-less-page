@@ -13,8 +13,8 @@ const app = express();
 app.use(bodyParser.json());
 
 // Your Facebook Page Access Token and Verify Token
-const PAGE_ACCESS_TOKEN = 'EAAUG0iogqEYBO0JvH4RwVCrM7yTQpaCs1xFzqs33cNjVDUBcZA49xQqRCXzpkIc3g7TcB4WTg4bMFNesqA2FLKHrq3JwmnYCSyTzbaaCF4WDtJUL4CmBOgb5o3tbnjkGCSc7qZBuVfbu6hMZBZBJS8x0aBIg9ZC1ZAsTmze3eN4lhh4sUj4qAfMgXlwZCTtQZAWh3QZDZD';  // replace with your actual token
-const VERIFY_TOKEN = 'Nicsbot';
+const PAGE_ACCESS_TOKEN = 'EAAE5qEz4d3wBO3ZCDTL8DkQRtfiAHBTyAC6KriyvtRiRPj40oJKw8Teh1lqdqSTCy5BLikzHwf8AZAtZCfRAVpcT37iZAXBHcrNCvXDdZBvCRXOhCWqsnY4pT3kThvZAEePkG2ZBqJXrSZBwCpODZBqgYSllboSUmoAas74IEgZBxyTeJZBN6Y6JZCKvZB3t7fBMqjwZBi9AZDZD';  // replace with your actual token
+const VERIFY_TOKEN = 'Echo69';
 
 // Message history map to track conversations
 const messageHistory = new Map();
